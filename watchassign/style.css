@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b8b6d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    overflow: visible;
+    position: relative;
+    text-align: left;
+}
+
+.badge {
+    background-color: #fbe29a;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+}
+
+.novus-watch {
+    width: 100%;
+    display: block;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px 10px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    font-weight: normal;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.card-content p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+    font-weight: bold;
+}

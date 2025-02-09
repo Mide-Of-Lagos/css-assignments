@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <img src="assets/Logo.jpg" alt="logo" />
+        <nav>
+            <ul>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Learn more</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Help</a></li>
+                <li><button class="account-btn">Account</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="checkout-form">
+            <h2>Checkout</h2>
+            <hr
+                style="width: 100%; height: 2px; border: none; font-weight: normal; background-color: rgb(243, 239, 239); margin: 20px auto;">
+            <form>
+                <div class="section">
+                    <h3>1. Your Basic Information</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" class="first-name" placeholder="Jane">
+                        </div>
+                        <div class="form-group">
+                            <label for="first-name">Last Name</label>
+                            <input type="text" class="last-name" placeholder="Doe">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="email" placeholder="janedoe@example.com">
+                    </div>
+                </div>
+
+                <hr
+                    style="width: 100%; height: 2px; border: none; font-weight: normal; background-color: rgb(243, 239, 239); margin: 20px auto;">
+
+                <div class="section">
+                    <h3>2. Your Payment Information</h3>
+                    <div class="form-group">
+                        <label for="credit-card">Credit Card</label>
+                        <div class="card-input">
+                            <input type="text" class="card-number" placeholder="Card Number">
+                            <input type="text" class="card-number" placeholder="MM / YY">
+                            <input type="text" class="card-number" placeholder="CVC">
+                        </div>
+                    </div> 
+                </div>
+            </form>
+
+            <hr
+                style="width: 100%; height: 2px; border: none; font-weight: normal; background-color: rgb(243, 239, 239); margin: 20px auto;">
+
+            <button type="submit" class="btn">Buy WP Pusher</button>
+
+            <p class="support">
+                <img src="assets/question.jpg" alt="?"> Need any help? Don't hesitate to contact
+                support!
+            </p>
+        </div>
+
+        <div class="sidebar">
+            <h3>Freelancer</h3>
+            <h1 class="price"> $99 <span>/ year</span></h1>
+            <p>Automatically renews after 1 year</p>
+            <ul class="checklist">
+                <li>Use on 5 client sites</li>
+                <li>Private repositories</li>
+                <li>Email support</li>
+            </ul>
+            <p class="switch-plan">Need 20 client sites? <br/><br /><a href="#">Switch to the Agency plan</a></p>
+
+            <hr
+                style="width: 100%; height: 2px; border: none; font-weight: normal; background-color: rgb(243, 239, 239); margin: 20px auto;">
+
+            <div class="testimonial">
+                <p><i>FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is
+                        awesome.</i></p>
+                <p class="customer">- Kirk Beard</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 WP Pusher IVS - <a href="#">Terms of Services</a> </p>
+    </footer>
+</body>
+
+</html>
