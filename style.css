@@ -3,11 +3,48 @@ body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
+        background-image: url(bow.jpeg);
+        font-family: "Playfair Display", serif;
     }
-.header {
-        background-color: #d6c6c6;
+    .header {
+        color: black;
+        padding: 10px 0;
+        display: grid;
+        width: 30%;
+        margin: auto;
+    }
+    .header h4 {
+        text-decoration: underline;
+        justify-content: center;
+        margin-left: 80px;
+    }
+.container {
+      
+        color: #fff; 
+}
+    
+    .nav{
         color: #fff;
         padding: 10px 0;
         margin-top: 50px;
-        margin-bottom: 100px 
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       flex-direction: column;
+       gap: 60px;
+         width: 60%;
+         height: 50px;
+       font-style: italic;
+        font-size: 20px; 
+        margin: 0 auto;
+       margin-left: 350px;
+       margin-top: 150px;
+
+    }
+    .nav a{
+        color: black;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 5px;
+        background-color: #d6c6c6; 
     }
